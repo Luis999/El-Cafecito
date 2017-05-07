@@ -1,0 +1,294 @@
+* {
+  margin:0;
+  padding: 0;
+}
+/**
+galeon
+*/
+
+
+#b_gris{
+display:none;
+}
+
+.containerDiv{
+display:none;
+}
+
+
+#content_barra_galeon{
+display:none;
+}
+body {
+  background-image: url(imagenes/f.jpg);
+}
+
+header {
+  width:100%;
+}
+
+header nav {
+  width:90%;
+  max-width: 1000px;
+  margin: auto;
+  background: #100a0a;
+}
+
+.menu_bar {
+  display: none;
+}
+
+.social{
+  position: fixed;
+  right:0;
+  top:200px;
+  z-index: 2000;
+}
+
+.social ul {
+		list-style: none;
+    -webkit-box-sizzing:border-box;
+    -moz-box-sizzing:border-box;
+    box-sizing:border-box;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-google-plus {background: #d95232;}
+	.social ul li .icon-youtube {background: #bb0000;}
+  .social ul li .icon-instagram {background: #125688;}
+	.social ul li .icon-mail4 {background: #666666;}
+
+	.social ul li a:hover {
+    margin-left: -30px;
+    background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+.titulo{
+	float:right;
+	text-align:right;
+}
+
+.descripcion {
+	float:right;
+max-width:90%;
+background: url(imagenes/fondon.png);
+text-align:justify;
+margin:10px;
+padding:15px 20px 2px;
+
+}
+
+header nav ul {
+  overflow: hidden;
+  list-style: none;
+}
+
+.log {
+  float: left;
+}
+header nav ul li {
+  float:right;
+}
+
+header nav ul li a {
+  color:#fff;
+  padding:34px;
+  display: block;
+  text-decoration: none;
+}
+
+header nav ul li span {
+  margin-right: 10px;
+}
+
+header nav ul li:hover {
+  background: #800000;
+  -webkit-transform: scale(1.1) 500ms ease;
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+
+.contenido {
+  width:1000px;
+  margin:20px auto;
+  text-align: justify;
+  background-image: url(imagenes/fondo.png);
+}
+
+.contenido p {
+  margin-bottom: 16px;
+}
+
+.contenido img {
+  margin: 15px;
+  cursor: pointer;
+  position:static;
+  float:left;
+}
+
+.contenido img:hover{
+-webkit-transform: scale(1.1) 500ms ease;
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+-o-transition:all 500ms ease;
+transition:all 500ms ease;
+
+}
+
+.main img {
+  margin: 15px;
+  cursor:auto;
+  position:static;
+
+}
+
+.main img:hover{
+-webkit-transform: scale(1) 500ms ease;
+-ms-transform: scale(1);
+transform: scale(1);
+-o-transition:all 500ms ease;
+transition:all 500ms ease;
+
+}
+
+.main {
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+.slides {
+	width:100%;
+}
+
+.slides img {
+	width:100%;
+}
+
+.slidesjs-pagination {
+	background:#100;
+	list-style:none;
+	overflow:hidden;
+}
+
+.slidesjs-pagination li {
+	float:left;
+}
+
+.slidesjs-pagination li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.slidesjs-pagination li a:hover {
+	background:#800000;
+}
+
+.slides .active {
+	background:#800000;
+}
+
+.slidesjs-navigation{
+	background:#800000;
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+	padding:13.5px 20px;
+	float:right;
+}
+
+.slidesjs-navigation:hover{
+	background:#100;
+
+}
+
+.ir-arriba {
+  display: none;
+  padding:20px;
+  background: #800000;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position:fixed;
+  bottom:20px;
+  right: 20px;
+}
+
+
+
+@media screen and (max-width:1060px) {
+
+.contenido img{
+	width:140px;
+	height:140px;
+}
+
+body {
+  background: url(imagenes/55.jpg);
+}
+
+  .log{
+    display: none;
+  }
+
+.contenido  {
+  width: 100%;
+}
+
+  header nav {
+    width:80%;
+    height:100%;
+    left:-100%;
+    position:fixed;
+  }
+
+  header nav ul li {
+    display: block;
+    float: none;
+    border-bottom:1px solid rgba(255, 255, 255, .3)
+  }
+
+  .menu_bar {
+    display:block;
+    width: 100%;
+    background: #ccc;
+    position:static;
+
+  }
+
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 20px;
+    background: #a10000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    -webkit-box-sizzing:border-box;
+    -moz-box-sizzing:border-box;
+    box-sizing:border-box;
+
+  }
+
+  .menu_bar span{
+    float:right;
+    font-size: 60px;
+  }
+
+}
